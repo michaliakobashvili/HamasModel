@@ -38,6 +38,8 @@ This project is an Arabic text classification application that uses a RandomFore
 You can install the required libraries using `pip`:
 ```sh
 pip install scikit-learn imbalanced-learn nltk matplotlib seaborn
+```sh
+
 ## Setup
 
 1. **Clone the repository**:
