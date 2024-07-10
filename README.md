@@ -1,6 +1,4 @@
-# HamasModel
-Analysis of Hamas Reports: Machine Learning Perspective
-# Arabic Text Classifier
+# Hamas Reports Classifier
 
 This project is an Arabic text classification application that uses a RandomForest classifier with TF-IDF feature extraction. The application includes a graphical user interface (GUI) built with Tkinter for easy interaction.
 
@@ -26,7 +24,7 @@ This project is an Arabic text classification application that uses a RandomFore
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.12
 - The following Python libraries:
   - `scikit-learn`
   - `imblearn`
@@ -58,15 +56,19 @@ pip install scikit-learn imbalanced-learn nltk matplotlib seaborn
    - Each subfolder should represent a category and contain text files for that category.
    - The folder structure should look like this:
      ```
-     categories/
-     ├── category1/
-     │   ├── file1.txt
-     │   └── file2.txt
-     ├── category2/
-     │   ├── file1.txt
-     │   └── file2.txt
-     ├── category3/
-     └── category4/
+HamasModel/
+└── model/
+    └── data/
+        └── categories/
+            ├── category1/
+            │   ├── file1.txt
+            │   └── file2.txt
+            ├── category2/
+            │   ├── file1.txt
+            │   └── file2.txt
+            ├── category3/
+            └── category4/
+
      ```
 
 ## Usage
