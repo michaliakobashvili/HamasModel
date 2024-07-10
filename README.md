@@ -56,18 +56,18 @@ pip install scikit-learn imbalanced-learn nltk matplotlib seaborn
    - Each subfolder should represent a category and contain text files for that category.
    - The folder structure should look like this:
      ```
-HamasModel/
-└── model/
-    └── data/
-        └── categories/
-            ├── category1/
-            │   ├── file1.txt
-            │   └── file2.txt
-            ├── category2/
-            │   ├── file1.txt
-            │   └── file2.txt
-            ├── category3/
-            └── category4/
+      HamasModel/
+      └── model/
+          └── data/
+              └── categories/
+                  ├── category1/
+                  │   ├── file1.txt
+                  │   └── file2.txt
+                  ├── category2/
+                  │   ├── file1.txt
+                  │   └── file2.txt
+                  ├── category3/
+                  └── category4/
 
      ```
 
