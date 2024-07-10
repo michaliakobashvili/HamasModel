@@ -52,7 +52,8 @@ pip install scikit-learn imbalanced-learn nltk matplotlib seaborn
     ```
 
 3. **Prepare your data**:
-   - Organize your text data into subfolders within a `categories` folder.
+   - Organize your text data into files named "level1"..."level4".
+   - Run make_categories.py - it will create the folder categories.
    - Each subfolder should represent a category and contain text files for that category.
    - The folder structure should look like this:
      ```
